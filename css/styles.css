@@ -12,6 +12,13 @@ body {
     background-color: #f4f4f9;
 }
 
+/* Container for Main Content */
+.container {
+    max-width: 1100px; /* Sets a maximum width for content */
+    margin: 0 auto;    /* Centers the content horizontally */
+    padding: 0 20px;   /* Adds padding on left and right for breathing room */
+}
+
 /* Header Styles */
 header {
     background-color: #333;
@@ -134,4 +141,9 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Additional Spacing for Specific Sections */
+.services-content, .about-content, .contact-content {
+    padding: 20px 0; /* Adds vertical spacing for breathing room */
 }
