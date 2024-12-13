@@ -16,7 +16,7 @@ body {
 .container {
     max-width: 1100px; /* Sets a maximum width for content */
     margin: 0 auto;    /* Centers the content horizontally */
-    padding: 0 20px;   /* Adds padding on left and right for breathing room */
+    padding: 0 10px;   /* Adds padding on left and right for breathing room */
 }
 
 /* Header Styles */
